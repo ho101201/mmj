@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Noto Sans KR;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ist {
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+
+.list::-webkit-scrollbar { 
+  display: none;
+  width: 0 !important;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+
+:lang(ko) {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
